@@ -16,8 +16,6 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4E203ADC4BDADD3B8CB323480414BA4E /* UIViewController+QCloudUploaderUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F786869E9DE25972E782CFD7E4A799FE /* UIViewController+QCloudUploaderUtils.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		52564EE11F5E4F2B0035E9AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52564EE01F5E4F2B0035E9AB /* libz.tbd */; };
-		52564EE31F5E4F300035E9AB /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52564EE21F5E4F300035E9AB /* libstdc++.6.0.9.tbd */; };
 		5BD2CD2A6CBDA4467F30C3C81DC42121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		5C4A439362A62997465497DD2D367E52 /* TXYBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3FBBF3D6D23325496808D0D29D773 /* TXYBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EC6F224D1499C9BA8F161999D5BF33D /* TXYUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4473BF1DCBA4D6E13A166D4EEC65ED /* TXYUploadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,7 +71,7 @@
 		11BFF8653B72D63DCABC0ED21D9B4988 /* QCloudUploaderUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QCloudUploaderUtils-prefix.pch"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		17360FA02E8806DBDE003D2DDC051A21 /* Pods-QCloudUploaderUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCloudUploaderUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CC260F7DE3CB8A5CED239C37514EE94 /* Pods-QCloudUploaderUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QCloudUploaderUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		1CC260F7DE3CB8A5CED239C37514EE94 /* Pods-QCloudUploaderUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QCloudUploaderUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		24D39860DCF6BFC903CC7FB71EC461CA /* Pods-QCloudUploaderUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudUploaderUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		2A9CA87B68A0A5D0B18D4D459AB5B513 /* Pods-QCloudUploaderUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudUploaderUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -86,37 +84,35 @@
 		41926158F5F94CE09A8516FF0FD75814 /* QCloudUploaderUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QCloudUploaderUtils-umbrella.h"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4D3FD670BC624F57DFC662B5280D272C /* Pods-QCloudUploaderUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QCloudUploaderUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		52564EE01F5E4F2B0035E9AB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		52564EE21F5E4F300035E9AB /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libstdc++.6.0.9.tbd"; sourceTree = DEVELOPER_DIR; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6B659CDB54408EACCAFD20D8E5FDDF41 /* Pods-QCloudUploaderUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudUploaderUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6BD6BB9C3028D49C7272D3B1A76EB319 /* Pods-QCloudUploaderUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QCloudUploaderUtils_Example.modulemap"; sourceTree = "<group>"; };
+		6BD6BB9C3028D49C7272D3B1A76EB319 /* Pods-QCloudUploaderUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QCloudUploaderUtils_Example.modulemap"; sourceTree = "<group>"; };
 		6D2C64792AF3763C97CD8C7920F28E2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70F916E8348726EEADAC1F162BBE8546 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F916E8348726EEADAC1F162BBE8546 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7B0C709D7B6DAD2F6B184BD10A55C390 /* Pods-QCloudUploaderUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudUploaderUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7F4473BF1DCBA4D6E13A166D4EEC65ED /* TXYUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXYUploadManager.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8BF3FBBF3D6D23325496808D0D29D773 /* TXYBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXYBase.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9746458C5043C436EDCC4F389A1E16C3 /* libTXYUploader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libTXYUploader.a; sourceTree = "<group>"; };
 		A131421899C424100FF1EC62E6D36568 /* Pods-QCloudUploaderUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudUploaderUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A695FF17649F656DF99C6321C61062FC /* Pods-QCloudUploaderUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudUploaderUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AE17B7D2F416B4D0E79588707CC88543 /* QCloudUploaderUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCloudUploaderUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1B6C909E7350FE222518542BC8E213F /* QCloudUploaderUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QCloudUploaderUtils.modulemap; sourceTree = "<group>"; };
+		AE17B7D2F416B4D0E79588707CC88543 /* QCloudUploaderUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QCloudUploaderUtils.framework; path = QCloudUploaderUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B6C909E7350FE222518542BC8E213F /* QCloudUploaderUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QCloudUploaderUtils.modulemap; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BD698F7C637519CD88C692E5D661F681 /* UIViewController+QCloudUploaderUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QCloudUploaderUtils.h"; sourceTree = "<group>"; };
-		C051EDD59126B49AFF99978B3CEF97BA /* Pods_QCloudUploaderUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCloudUploaderUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C051EDD59126B49AFF99978B3CEF97BA /* Pods_QCloudUploaderUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QCloudUploaderUtils_Example.framework; path = "Pods-QCloudUploaderUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D1916792DCBF9C8C3F3070D705C0A614 /* Pods_QCloudUploaderUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCloudUploaderUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1916792DCBF9C8C3F3070D705C0A614 /* Pods_QCloudUploaderUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QCloudUploaderUtils_Tests.framework; path = "Pods-QCloudUploaderUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DB98A09E085FA3F6299B5362A8A692 /* Pods-QCloudUploaderUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudUploaderUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
@@ -153,8 +149,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52564EE31F5E4F300035E9AB /* libstdc++.6.0.9.tbd in Frameworks */,
-				52564EE11F5E4F2B0035E9AB /* libz.tbd in Frameworks */,
 				5BD2CD2A6CBDA4467F30C3C81DC42121 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +167,6 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52564EE21F5E4F300035E9AB /* libstdc++.6.0.9.tbd */,
-				52564EE01F5E4F2B0035E9AB /* libz.tbd */,
 				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
 			);
 			name = Frameworks;
@@ -201,6 +193,7 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -211,6 +204,7 @@
 				8BF3FBBF3D6D23325496808D0D29D773 /* TXYBase.h */,
 				7F4473BF1DCBA4D6E13A166D4EEC65ED /* TXYUploadManager.h */,
 			);
+			name = TXYUploader;
 			path = TXYUploader;
 			sourceTree = "<group>";
 		};
@@ -304,6 +298,7 @@
 				B2083F67CE88652DF0F409B9DB5526C9 /* External */,
 				9B72740D9D9CA166106BF99F8E892901 /* ViewController */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -330,6 +325,7 @@
 				BD698F7C637519CD88C692E5D661F681 /* UIViewController+QCloudUploaderUtils.h */,
 				F786869E9DE25972E782CFD7E4A799FE /* UIViewController+QCloudUploaderUtils.m */,
 			);
+			name = ViewController;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -356,6 +352,7 @@
 			children = (
 				2385BE4ECD125B039416978CB29EDB22 /* TXYUploader */,
 			);
+			name = External;
 			path = External;
 			sourceTree = "<group>";
 		};
@@ -393,6 +390,7 @@
 			children = (
 				9555813BEACC52B9663ABBED5C6F66AC /* Classes */,
 			);
+			name = QCloudUploaderUtils;
 			path = QCloudUploaderUtils;
 			sourceTree = "<group>";
 		};
@@ -755,10 +753,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QCloudUploaderUtils/QCloudUploaderUtils.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"-l\"TXYUploader\"",
-					"-ObjC",
-				);
 				PRODUCT_NAME = QCloudUploaderUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -947,10 +941,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QCloudUploaderUtils/QCloudUploaderUtils.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = (
-					"-l\"TXYUploader\"",
-					"-ObjC",
-				);
 				PRODUCT_NAME = QCloudUploaderUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
