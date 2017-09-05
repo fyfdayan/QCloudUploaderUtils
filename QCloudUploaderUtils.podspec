@@ -37,5 +37,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.libraries = 'z', 'stdc++.6.0.9'
     s.vendored_libraries = 'QCloudUploaderUtils/Classes/**/*.a'
 end
