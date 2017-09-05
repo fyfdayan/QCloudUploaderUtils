@@ -1,0 +1,6 @@
+framework module QCloudUploaderUtils {
+  umbrella header "QCloudUploaderUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

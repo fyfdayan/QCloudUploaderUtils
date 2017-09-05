@@ -1,0 +1,23 @@
+{
+  "name": "QCloudUploaderUtils",
+  "version": "0.1.0",
+  "summary": "A short description of QCloudUploaderUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fyfdayan/QCloudUploaderUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fyfdayan": "bird@corplus.net"
+  },
+  "source": {
+    "git": "https://github.com/fyfdayan/QCloudUploaderUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QCloudUploaderUtils/Classes/**/*",
+  "vendored_libraries": "QCloudUploaderUtils/Classes/**/*.a"
+}

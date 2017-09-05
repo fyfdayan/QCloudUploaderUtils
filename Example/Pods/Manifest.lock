@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QCloudUploaderUtils (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QCloudUploaderUtils (from `../`)
+
+EXTERNAL SOURCES:
+  QCloudUploaderUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QCloudUploaderUtils: 7a93c8435b8eb4f0e7b10fff4aa0bcfbf73d44cc
+
+PODFILE CHECKSUM: f5355a4d197844e1b9030f0a8f1511d1e0ea886d
+
+COCOAPODS: 1.2.1
